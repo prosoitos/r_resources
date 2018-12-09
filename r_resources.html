@@ -1,0 +1,1106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2018-12-09 Sun 00:46 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>R: Resources</title>
+<meta name="generator" content="Org mode" />
+<meta name="author" content="Marie-Hélène Burle" />
+<style type="text/css">
+<!--/*--><![CDATA[/*><!--*/
+@media all
+{
+  @import url(http://fonts.googleapis.com/css?family=Inconsolata);
+  @import url(http://fonts.googleapis.com/css?family=Lato);
+  @import url(http://fonts.googleapis.com/css?family=Linden+Hill);
+  @import url(http://fonts.googleapis.com/css?family=Roboto+Slab+Thin);
+  @import url(http://fonts.googleapis.com/css?family=Montez);
+  @import url(http://fonts.googleapis.com/css?family=IM+Fell+English);
+  @import url(http://fonts.googleapis.com/css?family=Rokkitt);  
+  /* @import url(http://fonts.googleapis.com/css?family=Anonymous+Pro);   */
+  article,
+  aside,
+  details,
+  figcaption,
+  figure,
+  footer,
+  header,
+  hgroup,
+  nav,
+  section,
+  summary {
+    display: block;
+  }
+  audio,
+  canvas,
+  video {
+    display: inline-block;
+  }
+  audio:not([controls]) {
+    display: none;
+    height: 0;
+  }
+  [hidden] {
+    display: none;
+  }
+  html {
+    font-family: sans-serif;
+    -webkit-text-size-adjust: 95%;
+    -ms-text-size-adjust: 95%;
+  }
+  body {
+    margin: 0;
+  }
+  a:focus {
+    outline: thin dotted;
+  }
+  a:active,
+  a:hover {
+    outline: 0;
+  }
+  abbr[title] {
+    border-bottom: 1px dotted;
+  }
+  b,
+  strong {
+    font-weight: bold;
+  }
+  dfn {
+    font-style: italic;
+  }
+  mark {
+    background: #ff0;
+    color: #000;
+  }
+  code,
+  kbd,
+  pre,
+  samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+  }
+  pre,
+  code {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+  q {
+    quotes: "\201C" "\201D" "\2018" "\2019";
+  }
+  small {
+    font-size: 80%; 
+  }
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sup {
+    top: -0.5em;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  img {
+    border: 0;
+  }
+  svg:not(:root) {
+    overflow: hidden;
+  }
+  figure {
+    margin: 0;
+  }
+  fieldset {
+    border: 1px solid #c0c0c0;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+  }
+  legend {
+    border: 0;
+    padding: 0;
+  }
+  button,
+  input,
+  select,
+  textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+  }
+  button,
+  input {
+    line-height: normal;
+  }
+  button,
+  html input[type="button"],
+  input[type="reset"],
+  input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+  }
+  button[disabled],
+  input[disabled] {
+    cursor: default;
+  }
+  input[type="checkbox"],
+  input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+  }
+  input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  input[type="search"]::-webkit-search-cancel-button,
+  input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+  textarea {
+    overflow: auto;
+    vertical-align: top;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  html {
+    font-family: 'Lato', sans-serif;
+    font-size: 110%;
+  }
+  pre,
+  code {
+    font-family: 'Inconsolata', sans-serif;
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+  }
+  h1 {
+    color: #890c0c;
+    font-size: 2.1em;
+    text-align: center;
+    line-height: 50px;
+    padding: 20px 0px 10px 0px;
+  }
+  h2 {
+    color: #793939;
+    font-size: 1.6em;
+    line-height: 35px;
+    padding: 20px 0px 0px 0px;
+    border-bottom: double #d1cac7;
+    /* border-bottom: double; */
+  }
+  h3 {
+    color: #8b4141;
+    font-size: 1.4em;
+    line-height: 31px;
+    padding: 15px 0px 0px 0px;
+    /* border-bottom: 1px solid; */
+    border-bottom: 1px solid #dcd7d5;
+    /* border-left: 3px solid #debaba; */
+    /* margin-left: 50px; */
+    /* padding: 0 0 0 15px; */
+  }
+  h4 {
+    color: #9c4949;
+    font-size: 1.2em;
+    line-height: 25px;
+  }
+  h5 {
+    color: #262626;
+    font-size: 1.15em;
+    line-height: 25px;
+  }
+  h6 {
+    color: #4d4d4d;
+    font-size: 1.05em;
+    line-height: 15px;
+  }
+  html {
+    background-color: #faf9f1;
+    color: #242b2f;
+    margin: 1em;
+    line-height: 24px;
+  }
+  body {
+    background-color: #faf9f1;
+    margin: 0px auto 0px 150px;
+    max-width: 21.5cm;
+    /* border: 1pt solid #93a1a1; */
+    /* border: 1pt solid #d9d9d9; */
+    /* border: 1pt solid #c9cfcf; */
+    /* border-radius: 10px; */
+    padding: 1em;
+  } 
+  a {
+    color: #db4000;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #8a5640;
+  }
+  a:hover {
+    background-color: #fbc7b1;
+    color: #211d1b;
+  }
+  .accordion {			/*button of the accordeon box*/
+    background-color: #c2d6d6;
+    color: #262626;
+    padding: 0em 0.8em;
+    font-size: 95%;
+    line-height: 22px;
+    border: 0.5pt solid #b3cccc;
+    border-radius: 5px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+    transition: 0.4s;
+    cursor: pointer;
+    outline: none;
+  }
+  .active, .accordion:hover {	/*button of the accordeon box while hover*/
+    background-color: #a3c2c2;
+    border: 0.5pt solid #94b8b8;
+    /* color: white; */
+  }
+  .panel {			/*accordeon box*/
+    padding: 0em 1em;
+    margin: 0.7em 0 0 0;
+    background-color: #e0ebeb;
+    /* border: 0.5pt solid #d9d9d9; */
+    border-radius: 5px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+  }
+  code {			/*inline code*/
+    background-color: #f1f1f1;
+    color: #262626;
+    padding: 0em 0.2em;
+    font-size: 95%;
+    line-height: 22px;
+    border: 0.5pt solid #e6e6e6;
+    border-radius: 3px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+  }
+  blockquote {			/*quote*/
+    /* font: 14px/22px normal helvetica, sans-serif; /\*original line*\/ */
+    line-height: 22px;
+    font-style: italic;
+    margin: 30px 0px 30px 50px;
+    padding-left: 15px;
+    border-left: 3px solid #ccc;
+  }
+  pre[class="src src-R"] {	/*src r*/
+    background-color: #f1f1f1;
+    color: #262626;
+    padding: 0.4em 0.8em;
+    font-size: 95%;
+    line-height: 22px;
+    border: 0.5pt solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+  }
+  pre[class="src src-sh"] {	/*src sh*/
+    background-color: #f1f1f1;
+    color: #262626;
+    padding: 0.4em 0.8em;
+    font-size: 95%;
+    line-height: 22px;
+    border: 0.5pt solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+  }
+  pre[class="src src-tex"] {	/*src latex*/
+    background-color: #f1f1f1;
+    color: #262626;
+    padding: 0.4em 0.8em;
+    font-size: 95%;
+    line-height: 22px;
+    border: 0.5pt solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+  }
+  pre[class="src src-html"] {	/*src html*/
+    background-color: #f1f1f1;
+    color: #262626;
+    padding: 0.4em 0.8em;
+    font-size: 95%;
+    line-height: 22px;
+    border: 0.5pt solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+  }
+  pre[class="example"] {	/*mono font framed by subtle gray border*/
+    padding: 0em 1.5em;
+  }
+  div[class="box"] {	/*mono font framed by subtle gray border*/
+    padding: 0em 0.8em;
+    line-height: 22px;
+    border: 0.5pt solid #d9d9d9;
+    border-radius: 5px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+  }
+  div[class="definition"] {	/*small font in dull gray box*/
+    background-color: #f0efe7;
+    font-family: 'Rokkitt';
+    /* width: max-content; */
+    color: #3e3e3e;
+    /* padding: 0.6em 0.8em 0.6em 0.8em; */
+    padding: 0em 0.8em;
+    font-size: 103%;
+    line-height: 22px;
+    border: 0.5pt solid #ebeae0;
+    border-radius: 5px;
+    box-shadow: 0pt 0pts 0pt #eee8d5;
+  }
+  p[class="verse"] {		/*verse*/
+    color: #262626;
+    font-family: 'IM Fell English';
+    font-size: 110%;
+    font-style: italic;
+    margin-left: 30px;		/*keep this line to have the verses indented*/
+    line-height: 25px;
+  }
+  div[class="org-center"] {	/*center*/
+    margin: auto;
+    line-height: 22px;
+    width: max-content;
+  }
+  div[class="right"] {	/*right-aligned*/
+    text-align: right;
+    line-height: 22px;
+  }
+  div[class="handwriting"] {		/*handwriting font*/
+    font-family: 'Montez';
+    line-height: 26px;
+    font-size: 130%;
+  }
+  div[class="monofont"] {	/*monospace font*/
+    margin: auto;
+    width: max-content;
+    /* font-family: 'anonymous pro'; */
+    font-family: 'Slabo';
+    width: max-content;
+    color: #000000;
+    /* padding: 0.3 0.8em 0.3 0.8em; */
+    padding: 0em 0.8em;
+    font-size: 95%;
+    line-height: 20px;
+    /* margin: 0 0 0 5px; */
+    border: 0.5pt solid #999999;
+    border-radius: 5px;
+    /* font-size: 95%; */
+  }
+  div[class="red"] {	/*with monospace font*/
+    /* font-family: 'Anonymous Pro'; */
+    /* font-family: 'Roboto Slab Thin'; */
+    /* margin: auto; */
+    /* width: max-content; */
+    /* color: #a52a2a; */
+    /* font-weight: bold; */
+    /* font-style: italic; */
+    padding: 0.1em 0.8em;
+    /* font-size: 95%; */
+    /* line-height: 20px; */
+    /* margin: 0 0 0 5px; */
+    /* border: 0.5pt solid #d9d9d9; */
+    /* border-radius: 5px; */
+    /* font-size: 95%; */
+    /* padding: 0em 1em; */
+    /* margin: 0.7em 0 0 0; */
+    background-color: #f5deb3;
+    /* border: 0.5pt solid #d9d9d9; */
+    /* border-radius: 5px; */
+    /* max-height: 0; */
+    /* overflow: hidden; */
+    /* transition: max-height 0.2s ease-out; */
+    /* background-color: #f1f1f1; */
+    color: #262626;
+    /* padding: 0.4em 0.8em; */
+    font-size: 92%;
+    /* line-height: 22px; */
+    /* border: 0.5pt solid #d9d9d9; */
+    border-radius: 5px;
+    box-shadow: 0pt 0pt 0pt #eee8d5;
+  }
+  div[class="vertbar"] {	/*vertical-bar and big margin for questions or emphasis*/
+    /* background-color: #f4faff; */
+    line-height: 27px;
+    font-family: 'Linden Hill';
+    /* font-weight: bold; */
+    margin: 45px 50px 45px 100px;
+    /* padding-left: 10px; */
+    /* border-left: 3px solid #890c0c; */
+    font-size: 120%;
+    color: #303b52;
+    padding: 0 0 0 15px;
+    border-left: 0.5px solid #425170;
+    width: max-content;    
+  }
+  div[class="emphasis"] {
+    line-height: 27px;
+    font-family: 'Montserrat';
+    /* font-weight: bold; */
+    margin: 30px 100px;
+    /* padding-left: 10px; */
+    /* border-left: 3px solid #890c0c; */
+    /* font-size: 135%; */
+    /* color: #8f7070; */
+    color: #911808;
+  }
+  .org-ess-numbers {
+    color: #e28200; 
+  }
+  .org-comment-delimiter {
+    color: #8c8c8c;
+  }
+  .org-comment {
+    color: #8c8c8c;
+  }
+  .org-string {
+    color: #013b6d;
+  }
+  .org-ess-function-call {
+    color: #bf4040;
+    /* font-weight: bolder; */
+  }
+  .org-ess-operator {
+    color: #0b5e56;
+  }
+  .org-ess-assignment {
+    color: #0b5e56;
+  }
+  .org-ess-paren {
+    color: #0b5e56;
+  }
+  .org-ess-XopX {
+    color: #0b5e56;
+  }  
+  .tag {
+    background-color: #eee8d5;
+    color: #d33682;
+    padding: 0 0.2em;
+  }
+  .todo,
+  .next,
+  .done {
+    color: #faf9f1;
+    background-color: #dc322f;
+    padding: 0 0.2em;
+  }
+  .tag {
+    -webkit-border-radius: 0.35em;
+    -moz-border-radius: 0.35em;
+    border-radius: 0.35em;
+  }
+  .TODO {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    background-color: #2aa198;
+  }
+  .NEXT {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    background-color: #268bd2;
+  }
+  .ACTIVE {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    background-color: #268bd2;
+  }
+  .DONE {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    background-color: #859900;
+  }
+  .WAITING {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    background-color: #cb4b16;
+  }
+  .HOLD {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    background-color: #d33682;
+  }
+  .note {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    background-color: #d33682;
+  }
+  .CANCELLED {
+    -webkit-border-radius: 0.2em;
+    -moz-border-radius: 0.2em;
+    border-radius: 0.2em;
+    background-color: #859900;
+  }
+
+  /* TOC inspired by http://jashkenas.github.com/coffee-script */
+  #table-of-contents {
+    font-size: 10pt;
+    position: fixed;
+    right: 0em;
+    top: 0em;
+    background: #faf9f1;
+    color: #004080;
+    /* -webkit-box-shadow: 0 0 1em #777777; */
+    /* -moz-box-shadow: 0 0 1em #777777; */
+    /* -webkit-border-bottom-left-radius: 10px; */
+    /* -moz-border-radius-bottomleft: 10px; */
+    text-align: right;
+    /* ensure doesn't flow off the screen when expanded */
+    max-height: 100%;
+    overflow: auto;
+  }
+  #table-of-contents h2 {
+    font-size: 12pt;
+    max-width: 25em;
+    border-bottom: 0px solid #d3d9de;
+    font-weight: bold;
+    color: #004080;
+    /* filter: invert(100%); */
+    padding-right: 3em;
+    padding-left: 0.8em;
+    padding-top: 1em;
+    padding-bottom: 0em;
+    text-align: left;
+  }
+  #table-of-contents #text-table-of-contents {
+    display: none;
+    text-align: left;
+  }
+  #table-of-contents:hover #text-table-of-contents {
+    display: block;
+    padding: 0.5em;
+    margin-top: -1.5em;
+  }
+
+  .rss_box {}
+  .rss_title, rss_title a {}
+  .rss_items {}
+  .rss_item a:link, .rss_item a:visited, .rss_item a:active {}
+  .rss_item a:hover {}
+  .rss_date {}
+
+} /* END OF @media all */
+
+
+@media screen
+{
+  #table-of-contents {
+    float: right;
+    border: 0px solid #CCC;
+    max-width: 40%;
+    overflow: auto;
+  }
+} /* END OF @media screen */
+/*]]>*/-->
+</style>
+<script type="text/javascript">
+/*
+@licstart  The following is the entire license notice for the
+JavaScript code in this tag.
+
+Copyright (C) 2012-2018 Free Software Foundation, Inc.
+
+The JavaScript code in this tag is free software: you can
+redistribute it and/or modify it under the terms of the GNU
+General Public License (GNU GPL) as published by the Free Software
+Foundation, either version 3 of the License, or (at your option)
+any later version.  The code is distributed WITHOUT ANY WARRANTY;
+without even the implied warranty of MERCHANTABILITY or FITNESS
+FOR A PARTICULAR PURPOSE.  See the GNU GPL for more details.
+
+As additional permission under GNU GPL version 3 section 7, you
+may distribute non-source (e.g., minimized or compacted) forms of
+that code without the copy of the GNU GPL normally required by
+section 4, provided you include this license notice and a URL
+through which recipients can access the Corresponding Source.
+
+
+@licend  The above is the entire license notice
+for the JavaScript code in this tag.
+*/
+<!--/*--><![CDATA[/*><!--*/
+ function CodeHighlightOn(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(null != target) {
+     elem.cacheClassElem = elem.className;
+     elem.cacheClassTarget = target.className;
+     target.className = "code-highlighted";
+     elem.className   = "code-highlighted";
+   }
+ }
+ function CodeHighlightOff(elem, id)
+ {
+   var target = document.getElementById(id);
+   if(elem.cacheClassElem)
+     elem.className = elem.cacheClassElem;
+   if(elem.cacheClassTarget)
+     target.className = elem.cacheClassTarget;
+ }
+/*]]>*///-->
+</script>
+</head>
+<body>
+<div id="preamble" class="status">
+<span style="color:#596a73;font-size:17px"><b>Marie-Hélène Burle</b></span>&nbsp;&nbsp;&nbsp;<span style="color:#596a73;font-size:14px"><img src="./email.ico" alt="email" height="15" width="15"> <a href="mailto:msb2@sfu.ca">msb2@sfu.ca</a>&nbsp;&nbsp;&nbsp;<img src="./twitter.ico" alt="twitter" height="16" width="16"><a href="https://twitter.com/MHBurle"> MHBurle</a>&nbsp;&nbsp;&nbsp;<img src="./gh.ico" alt="github" height="14" width="14"><a href="https://github.com/prosoitos"> prosoitos</a></span><hr color="#c5cdd3" size="0.5"><div style="color:#8b9ba7;font-size:18px" align="right"><b></b></div>
+</div>
+<div id="content">
+<h1 class="title">R: Resources</h1>
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orge13b1e1">Learning R</a></li>
+<li><a href="#orge75625e">Trouble-shooting in R</a></li>
+<li><a href="#orga3cc1f6">Getting help with R</a></li>
+<li><a href="#org5a2d4e1">Getting involved in the R community</a></li>
+<li><a href="#orgcec796d">Keeping up with R development and finding information on advanced techniques</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orge13b1e1" class="outline-2">
+<h2 id="orge13b1e1">Learning R</h2>
+<div class="outline-text-2" id="text-orge13b1e1">
+</div>
+<div id="outline-container-org5cace6e" class="outline-3">
+<h3 id="org5cace6e">Online resources</h3>
+<div class="outline-text-3" id="text-org5cace6e">
+<p>
+The R community is extremely active and has built many open source <a href="https://bookdown.org/">bookdown</a> books, tutorials, cheatsheets, videos&#x2026;<br />
+</p>
+
+<p>
+The list below is far from exhaustive and new resources keep popping up. If you look online, you won't stop finding new, excellent, and open source R resources.<br />
+</p>
+</div>
+
+<div id="outline-container-org9286575" class="outline-4">
+<h4 id="org9286575">Getting started with R and the tidyverse</h4>
+<div class="outline-text-4" id="text-org9286575">
+<p>
+The book <a href="http://r4ds.had.co.nz/index.html">R for Data Science by Garrett Grolemund and Hadley Wickham</a> is a must read for all beginner/intermediate R users, as well as advanced users not familiar with the tidyverse. This book will get you started with good habits and is an excellent introduction to R.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0aa5f03" class="outline-4">
+<h4 id="org0aa5f03">Cheatsheets</h4>
+<div class="outline-text-4" id="text-org0aa5f03">
+<p>
+Who doesn't love cheatsheets? Good news: RStudio and others created <a href="https://www.rstudio.com/resources/cheatsheets/">great cheatsheets</a> on the tidyverse and a few other packages. If you use the tidyverse, those are an absolute must have.<br />
+</p>
+
+<p>
+<i>Note: some of these cheatsheet are accessible from within RStudio, under the help menu.</i><br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org078d785" class="outline-4">
+<h4 id="org078d785">Writing readable and well-formatted code</h4>
+<div class="outline-text-4" id="text-org078d785">
+<p>
+While syntax matters greatly in code execution (e.g. missing quotes, commas, or parenthesis will affect the meaning of your code), R will equally run formatted and non-formatted code.<br />
+</p>
+
+<p>
+Code, however, should not simply be written for the machine and should be made as human readable as possible. This is key, for instance, for code sharing and code review. While there are no official R formatting guidelines, <a href="http://style.tidyverse.org/">Hadley Wickham wrote a short book on R formatting</a>. <a href="https://google.github.io/styleguide/Rguide.xml">Google's R Style Guide</a> offers another popular (and quite similar) set of recommendations. Whichever formatting rules you choose, it is important that you commit to them for the sake of <b>formatting consistency</b>.<br />
+</p>
+
+<p>
+Of note, when you work on someone else's code, you should adopt their style, again, for the sake of consistency.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org68c08e4" class="outline-4">
+<h4 id="org68c08e4">Understanding R as a programming language</h4>
+<div class="outline-text-4" id="text-org68c08e4">
+<p>
+The book <a href="https://adv-r.hadley.nz/">Advanced R by Hadley Wickham</a> will give you a better understanding of R as a programming language and help you get to the next level of R writing. Don't get turned off by the term "advanced". The book is very readable and is useful for R users at all levels to better understand the various types of data, the functioning of R, etc.<br />
+</p>
+
+<p>
+<a href="http://adv-r.had.co.nz/">The first edition</a> of that book, which focuses on base R rather than on the tidyverse, is also well worth a read.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org009f9d9" class="outline-4">
+<h4 id="org009f9d9">Writing your own packages</h4>
+<div class="outline-text-4" id="text-org009f9d9">
+<p>
+The book <a href="http://r-pkgs.had.co.nz/">R packages by Hadley Wickham</a> will get you started if you want to write your own packages.<br />
+</p>
+
+<p>
+The on-line manual <a href="https://cran.r-project.org/doc/manuals/R-exts.html">Writing R Extensions by the R Core Team</a> gives a more dense and exhaustive documentation if you need something that is not in Hadley's book.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org76e8896" class="outline-4">
+<h4 id="org76e8896">Using R Markdown</h4>
+<div class="outline-text-4" id="text-org76e8896">
+<p>
+The books <a href="https://bookdown.org/yihui/rmarkdown/">R Markdown: The Definitive Guide by Yihui Xie, J. J. Allaire, and Garrett Grolemund</a> and <a href="https://bookdown.org/yihui/bookdown/">bookdown: Authoring Books and Technical Documents with R Markdown by Yihui Xie</a> cover the use of R Markdown.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org91f37c7" class="outline-4">
+<h4 id="org91f37c7">GIS in R</h4>
+<div class="outline-text-4" id="text-org91f37c7">
+<p>
+The tutorials <a href="https://data.cdrc.ac.uk/tutorial/an-introduction-to-spatial-data-analysis-and-visualisation-in-r">An Introduction to Spatial Data Analysis and Visualisation in R by Guy Lansley and James Cheshire</a> as well as the book <a href="https://geocompr.robinlovelace.net/">Geocomputation with R by Robin Lovelace, Jakub Nowosad, and Jannes Muenchow</a> will teach you how to map data and conduct spacial data analysis in R or how to bridge R and <a href="https://www.qgis.org/en/site/">QGIS</a>.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org7580e22" class="outline-4">
+<h4 id="org7580e22">Videos</h4>
+<div class="outline-text-4" id="text-org7580e22">
+<p>
+RStudio offers <a href="https://resources.rstudio.com/">teaching videos</a> and <a href="https://resources.rstudio.com/webinars">webinars</a>.<br />
+</p>
+
+<p>
+The SFU Library <a href="https://www.lib.sfu.ca/find/other-materials/lynda">provides access to the website Lynda.com</a> which has videos on R, but note that this is not an open source resource and the videos are mostly designed for beginners.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org766fffa" class="outline-4">
+<h4 id="org766fffa">Others</h4>
+<div class="outline-text-4" id="text-org766fffa">
+<p>
+<a href="https://serialmentor.com/dataviz/">Fundamentals of Data Visualization by Claus O. Wilke</a>, <a href="https://www.tidytextmining.com/">Text Mining with R by Julia Silge and David Robinson</a>, <a href="https://tidyeval.tidyverse.org/">Tidy evaluation by Lionel Henry and Hadley Wickham</a>, <a href="https://cran.r-project.org/doc/FAQ/R-FAQ.html#Why-are-powers-of-negative-numbers-wrong_003f">R FAQ by Kurt Hornik</a>, <a href="http://varianceexplained.org/RData/">David Robinson's course</a>, <a href="https://csgillespie.github.io/efficientR/">Efficient R programming by Colin Gillespie and Robin Lovelace</a>, <a href="http://rdpeng.github.io/RProgDA/">Mastering Software Development in R by Roger D. Peng, Sean Kross, and Brooke Anderson</a>&#x2026;<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgda14658" class="outline-3">
+<h3 id="orgda14658">Resources at SFU</h3>
+<div class="outline-text-3" id="text-orgda14658">
+</div>
+<div id="outline-container-org5664c5a" class="outline-4">
+<h4 id="org5664c5a">The Research Commons</h4>
+<div class="outline-text-4" id="text-org5664c5a">
+<p>
+The SFU Research Commons offers <a href="https://www.lib.sfu.ca/about/branches-depts/rc/services/consultations#r-help-and-consultations">one-on-one R consultations</a> and <a href="https://www.lib.sfu.ca/about/branches-depts/rc/services/workshops#r-software">R workshops</a>.<br />
+</p>
+
+<p>
+The Research Commons is also a partner of <a href="https://software-carpentry.org/">Software Carpentry</a> and <a href="http://www.datacarpentry.org/">Data Carpentry</a>, now merged under <a href="http://carpentries.org/">the Carpentries</a>. The Carpentries organize workshops-including workshops on R-regularly. You can find their upcoming workshops on their <a href="https://carpentries.org/">website</a>.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org8db85c7" class="outline-4">
+<h4 id="org8db85c7">The library</h4>
+<div class="outline-text-4" id="text-org8db85c7">
+<p>
+The SFU library owns several classic books on R. Don't hesitate to talk to a librarian if you need help finding them. And remember that you can also suggest new book acquisitions if important books are missing from the collection.<br />
+</p>
+
+<p>
+It is worth noting that R development is very active. While the information in books remains valid, new packages are constantly being added which allow for novel approaches. And you are much more likely to find recent information online than in books.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org0a93195" class="outline-4">
+<h4 id="org0a93195">The Scientific Programming Study Group</h4>
+<div class="outline-text-4" id="text-org0a93195">
+<p>
+<a href="http://sciprog.ca/">SciProg</a>, short for Scientific Programming Study Group, is an SFU student lead group open to anyone interested in learning or sharing programming resources through workshops, hackathons, and other events. R workshops are regularly offered. If you are interested in learning about a particular topic (or if you are interested in giving workshops), get in touch!<br />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orge75625e" class="outline-2">
+<h2 id="orge75625e">Trouble-shooting in R</h2>
+<div class="outline-text-2" id="text-orge75625e">
+<div class="red">
+<ol class="org-ol">
+<li><b>Read the error message*</b><br /></li>
+<li>Look for typos (R is case sensitive)<br /></li>
+<li>Re-start your R process<br /></li>
+<li>Make sure your working directory is where you think it is and your files are where you think they are<br /></li>
+<li>Update R, RStudio if you use it, and your packages<br /></li>
+<li>Look at the help files of the functions involved<br /></li>
+<li>Google using judicious keywords<br /></li>
+<li>If relevant, look for explanations and examples in Hadley's books and/or RStudio cheatsheets<br /></li>
+<li>Simplify your non running code until it starts running or alternatively start very simple and add elements until the code breaks<br /></li>
+</ol>
+
+</div>
+
+<p>
+<i>*Don't panic as soon as you see something red: some information (for instance when you install new packages) and warnings are also red. They are important to read, but they are not error messages. Most students panic as soon as they see error messages and they do not read those. Error messages are not there to punish you: they are very useful bits of information that are critical to finding a solution. While they may not always make sense, read them several times. You might understand part of it and it can give you hints on how to get started. Error messages are also very useful to look for help on google.</i><br />
+</p>
+
+<p>
+If, after doing all of these, you are stick stuck, then ask for help:<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orga3cc1f6" class="outline-2">
+<h2 id="orga3cc1f6">Getting help with R</h2>
+<div class="outline-text-2" id="text-orga3cc1f6">
+</div>
+<div id="outline-container-orgf1a1ca4" class="outline-3">
+<h3 id="orgf1a1ca4">One-on-one consultations with the Research Commons</h3>
+<div class="outline-text-3" id="text-orgf1a1ca4">
+<p>
+The Research Commons offers one-on-one consultations to graduate students and faculty who need help with their code. You can book consultations <a href="https://www.lib.sfu.ca/about/branches-depts/rc/services/consultations#r-help-and-consultations">here</a>.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org91995d5" class="outline-3">
+<h3 id="org91995d5">Asking questions online</h3>
+<div class="outline-text-3" id="text-org91995d5">
+<p>
+There are wonderful websites in which you can ask your R questions and get help quickly (and for free) from the best R users from around the world!<br />
+</p>
+
+<ul class="org-ul">
+<li><a href="https://stackoverflow.com/questions/tagged/r">Stack Overflow, with the tag r</a><br /></li>
+<li><a href="https://community.rstudio.com/">The RStudio Community forum</a><br /></li>
+<li><a href="https://twitter.com/search?q=#rstats&amp;src=savs">Twitter with the hashtag #rstats</a><br /></li>
+<li>There is a Slack team of people reading <a href="http://r4ds.had.co.nz/index.html">R for Data Science</a><br /></li>
+<li>There are also a number of mailing lists<br /></li>
+</ul>
+
+<p>
+This is a beauty of the open source community. To have a happy experience however, you need to do your part and ask <b>a good question</b>: you can't expect people to spend their free time helping you if you aren't putting some efforts too.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd70fee8" class="outline-3">
+<h3 id="orgd70fee8">How to ask for help</h3>
+<div class="outline-text-3" id="text-orgd70fee8">
+<blockquote>
+<p>
+This is critical&#x2026;<br />
+</p>
+</blockquote>
+
+<p>
+The Research Commons offers workshops on how to ask R questions properly. You can look for upcoming R workshops <a href="https://www.lib.sfu.ca/about/branches-depts/rc/services/workshops#r-software">here</a>.<br />
+</p>
+</div>
+
+<div id="outline-container-org707be70" class="outline-4">
+<h4 id="org707be70">The golden rules</h4>
+<div class="outline-text-4" id="text-org707be70">
+<p>
+In order for others to understand your issue and be able to help you, the code that you post online needs to follow 6 rules, which are that it:<br />
+</p>
+
+<div class="red">
+<ol class="org-ol">
+<li>makes sense without being run,<br /></li>
+<li>can be run,<br /></li>
+<li>does not contain sensitive or personal data,<br /></li>
+<li>does not use data which needs to be downloaded,<br /></li>
+<li>does not contain more than is necessary to reproduce the problem.<br /></li>
+<li>is properly formatted<br /></li>
+</ol>
+
+</div>
+
+<p>
+Let's go over each point. The posted code:<br />
+</p>
+</div>
+
+<div id="outline-container-org0c51dd6" class="outline-5">
+<h5 id="org0c51dd6">1. Makes sense without being run</h5>
+<div class="outline-text-5" id="text-org0c51dd6">
+<p>
+This means that it includes the code and its output: not everybody wants to run your code and they may be able to see what is going on just by looking at this.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge5ba61d" class="outline-5">
+<h5 id="orge5ba61d">2. Can be run</h5>
+<div class="outline-text-5" id="text-orge5ba61d">
+<p>
+Anyone copying your code and running it on their machine should get the output you got. This is necessary for others to test potential solutions without having to do the work of first making up data that looks like yours.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfeea758" class="outline-5">
+<h5 id="orgfeea758">3. Does not contain sensitive or personal data</h5>
+<div class="outline-text-5" id="text-orgfeea758">
+<p>
+If your data is sensitive, it needs to be anonymised or you need to make a toy example which mimics the structure of your data.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgadefd35" class="outline-5">
+<h5 id="orgadefd35">4. Does not use data which needs to be downloaded</h5>
+<div class="outline-text-5" id="text-orgadefd35">
+<p>
+If your code uses, for instance, data from a file, the code alone will not run. Uploading your file or a file for others to download is tedious and many people will not be keen to do so. At best, your question will be ignored, at worse, you will get negative feed-back. You either need to make a toy example which has all the characteristics necessary to replicate your problem or you need to provide a sample of your data using . Hadley Wickham explains <a href="http://adv-r.had.co.nz/Reproducibility.html">how to use dput() to create a reproducible example</a> in <a href="http://adv-r.had.co.nz/">his first version of Advanced R</a>.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-org861eff8" class="outline-5">
+<h5 id="org861eff8">5. Does not contain more than is necessary to reproduce the problem</h5>
+<div class="outline-text-5" id="text-org861eff8">
+<p>
+While not absolutely necessary, reducing your code to the simplest and smallest sample necessary to reproduce your problem will make it easier for others to pinpoint what is going on. Additionally, it is likely that you will find the problem yourself in the process of producing this "minimal reproducible example". The accepted answer to the very popular question <a href="https://stackoverflow.com/questions/5963269/how-to-make-a-great-r-reproducible-example">how to make a great R reproducible example?</a> on the site <a href="https://stackoverflow.com">Stack Overflow</a> gives all the characteristics of a minimal reproducible example.<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgb79b0b7" class="outline-5">
+<h5 id="orgb79b0b7">6. Is properly formatted</h5>
+<div class="outline-text-5" id="text-orgb79b0b7">
+<p>
+The <a href="https://community.rstudio.com/">RStudio Community forum</a> website uses R Markdown formatting with R code blocks between and . To format code blocks on the <a href="https://stackoverflow.com/">Stack Overflow</a> website, you need to add 4 species at the start of each line. Inline code on both websites can be formatted with backticks.<br />
+</p>
+
+<p>
+The tidyverse package <a href="https://reprex.tidyverse.org/">reprex</a> can do the formatting for you.<br />
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org8a2bd82" class="outline-4">
+<h4 id="org8a2bd82">How do I follow the golden rules?</h4>
+<div class="outline-text-4" id="text-org8a2bd82">
+<p>
+Here are some extremely useful links:<br />
+</p>
+
+<p>
+<a href="https://support.rstudio.com/hc/en-us/articles/200552336">https://support.rstudio.com/hc/en-us/articles/200552336</a><br />
+<a href="https://www.dummies.com/programming/r/r-for-dummies-cheat-sheet/">https://www.dummies.com/programming/r/r-for-dummies-cheat-sheet/</a><br />
+<a href="https://www.r-bloggers.com/three-tips-for-posting-good-questions-to-r-help-and-stack-overflow/">https://www.r-bloggers.com/three-tips-for-posting-good-questions-to-r-help-and-stack-overflow/</a><br />
+<a href="https://resources.rstudio.com/webinars/help-me-help-you-creating-reproducible-examples-jenny-bryan">https://resources.rstudio.com/webinars/help-me-help-you-creating-reproducible-examples-jenny-bryan</a><br />
+<a href="https://swcarpentry.github.io/r-novice-gapminder/03-seeking-help/">https://swcarpentry.github.io/r-novice-gapminder/03-seeking-help/</a><br />
+<a href="https://masalmon.eu/2018/07/22/wheretogethelp/">https://masalmon.eu/2018/07/22/wheretogethelp/</a><br />
+<a href="http://www.cookbook-r.com/">http://www.cookbook-r.com/</a><br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orge3dcc9c" class="outline-4">
+<h4 id="orge3dcc9c"><a id="h:5fa991db-3c7d-4e83-a5bc-de6ac1000ee7"></a>Data anonymisation</h4>
+<div class="outline-text-4" id="text-orge3dcc9c">
+<p>
+You can anonymise sensitive information yourself, or you can use the package <a href="https://cran.r-project.org/web/packages/anonymizer/index.html">anonymizer</a>.<br />
+</p>
+</div>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org5a2d4e1" class="outline-2">
+<h2 id="org5a2d4e1">Getting involved in the R community</h2>
+<div class="outline-text-2" id="text-org5a2d4e1">
+<p>
+<a href="https://ropensci.org/blog/">rOpenSci</a><br />
+</p>
+
+<p>
+<a href="https://rladies.org/">R Ladies</a>, an organization promoting gender diversity in the R community, recently opened <a href="https://www.meetup.com/R-Ladies-Vancouver/">a new chapter in Vancouver</a>.<br />
+</p>
+</div>
+
+<div id="outline-container-org63281b0" class="outline-4">
+<h4 id="org63281b0">Answering questions</h4>
+<div class="outline-text-4" id="text-org63281b0">
+<p>
+xxxxlink to asking question link on other page<br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgfc0db2b" class="outline-4">
+<h4 id="orgfc0db2b">Contributing code</h4>
+<div class="outline-text-4" id="text-orgfc0db2b">
+</div>
+<div id="outline-container-org62b7809" class="outline-5">
+<h5 id="org62b7809">Filling issues and submitting pull requests</h5>
+<div class="outline-text-5" id="text-org62b7809">
+<p>
+<a href="https://github.com/">GitHub</a> <br />
+</p>
+</div>
+</div>
+
+<div id="outline-container-orgd315582" class="outline-5">
+<h5 id="orgd315582">Submitting packages</h5>
+</div>
+</div>
+</div>
+
+
+<div id="outline-container-orgcec796d" class="outline-2">
+<h2 id="orgcec796d">Keeping up with R development and finding information on advanced techniques</h2>
+<div class="outline-text-2" id="text-orgcec796d">
+<p>
+R has a very healthy and active community of developers creating packages and techniques at a fast pace.<br />
+</p>
+
+<p>
+To remain informed of new developments, an efficient strategy is to follow the hashtag <a href="https://twitter.com/search?q=#rstats&amp;src=typd">#rstats on twitter</a> and keep an eye on blogs such as the <a href="https://www.r-bloggers.com/">R-bloggers</a>, the <a href="https://ropensci.org/blog/">rOpenSci blog</a>, the <a href="https://blog.rstudio.com/">RStudio blog</a>&#x2026;<br />
+</p>
+
+<p>
+<a href="https://journal.r-project.org/">The R Journal</a> and many articles in statistical journals describe novel techniques in R and provide examples of applications.<br />
+</p>
+
+<p>
+Many modern statistical books provide R code allowing a direct implementation in R of the methodology covered.<br />
+</p>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<br><span style="color:#596a73;font-size:14px"><div align="right">Last updated: December 09, 2018</div></span>
+</div>
+</body>
+</html>
