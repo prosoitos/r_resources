@@ -13,7 +13,9 @@
 
 ** Online resources
 
-Several excellent books on R are-on top of their paper version-available as open source [[https://bookdown.org/][bookdowns]]. Many active members of the R community keep building great manuals, tutorials, cheatsheets, videos...
+The R community is extremely active and has built many open source [[https://bookdown.org/][bookdown]] books, tutorials, cheatsheets, videos...
+
+The list below is far from exhaustive and new resources keep popping up. If you look online, you won't stop finding new, excellent, and open source R resources.
 
 *** Getting started with R and the tidyverse
 
@@ -21,7 +23,7 @@ The book [[http://r4ds.had.co.nz/index.html][R for Data Science by Garrett Grole
 
 *** Cheatsheets
 
-Who doesn't love cheatsheets? Good news: RStudio and others created [[https://www.rstudio.com/resources/cheatsheets/][great cheatsheets]] on the tidyverse and a few other packages. If you use the tidyverse, those are absolute must have.
+Who doesn't love cheatsheets? Good news: RStudio and others created [[https://www.rstudio.com/resources/cheatsheets/][great cheatsheets]] on the tidyverse and a few other packages. If you use the tidyverse, those are an absolute must have.
 
 /Note: some of these cheatsheet are accessible from within RStudio, under the help menu./
 
@@ -45,15 +47,23 @@ The book [[http://r-pkgs.had.co.nz/][R packages by Hadley Wickham]] will get you
 
 The on-line manual [[https://cran.r-project.org/doc/manuals/R-exts.html][Writing R Extensions by the R Core Team]] gives a more dense and exhaustive documentation if you need something that is not in Hadley's book.
 
+*** Using R Markdown
+
+The books [[https://bookdown.org/yihui/rmarkdown/][R Markdown: The Definitive Guide by Yihui Xie, J. J. Allaire, and Garrett Grolemund]] and [[https://bookdown.org/yihui/bookdown/][bookdown: Authoring Books and Technical Documents with R Markdown by Yihui Xie]] cover the use of R Markdown.
+
 *** GIS in R
 
 The tutorials [[https://data.cdrc.ac.uk/tutorial/an-introduction-to-spatial-data-analysis-and-visualisation-in-r][An Introduction to Spatial Data Analysis and Visualisation in R by Guy Lansley and James Cheshire]] as well as the book [[https://geocompr.robinlovelace.net/][Geocomputation with R by Robin Lovelace, Jakub Nowosad, and Jannes Muenchow]] will teach you how to map data and conduct spacial data analysis in R or how to bridge R and [[https://www.qgis.org/en/site/][QGIS]].
 
-*** Other online resources
+*** Videos
 
-RStudio offers [[https://resources.rstudio.com/][teaching videos]], [[https://resources.rstudio.com/webinars][webinars]].
+RStudio offers [[https://resources.rstudio.com/][teaching videos]] and [[https://resources.rstudio.com/webinars][webinars]].
 
-check linda. mention datacamp. while sfu offers subscriptions, it might be worth noting that these are not open source resources.
+The SFU Library [[https://www.lib.sfu.ca/find/other-materials/lynda][provides access to the website Lynda.com]] which has videos on R, but note that this is not an open source resource and the videos are mostly designed for beginners.
+
+*** Others
+
+[[https://serialmentor.com/dataviz/][Fundamentals of Data Visualization by Claus O. Wilke]], [[https://www.tidytextmining.com/][Text Mining with R by Julia Silge and David Robinson]], [[https://tidyeval.tidyverse.org/][Tidy evaluation by Lionel Henry and Hadley Wickham]], [[https://cran.r-project.org/doc/FAQ/R-FAQ.html#Why-are-powers-of-negative-numbers-wrong_003f][R FAQ by Kurt Hornik]], [[http://varianceexplained.org/RData/][David Robinson's course]], [[https://csgillespie.github.io/efficientR/][Efficient R programming by Colin Gillespie and Robin Lovelace]], [[http://rdpeng.github.io/RProgDA/][Mastering Software Development in R by Roger D. Peng, Sean Kross, and Brooke Anderson]]...
 
 ** Resources at SFU
 
